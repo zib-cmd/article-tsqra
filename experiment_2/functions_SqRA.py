@@ -3,7 +3,6 @@ from scipy import stats
 import scipy.linalg
 import scipy.sparse
 import scipy.sparse.linalg
-from pcca import pcca
 
 def grid1(xmin, xmax, xbins):
     xedges   = np.linspace(xmin, xmax, xbins) 
